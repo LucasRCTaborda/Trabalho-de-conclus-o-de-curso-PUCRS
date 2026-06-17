@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.6.9)  16 JUN 2026 17:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.6.9)  17 JUN 2026 14:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/lucas-taborda/Área de trabalho/Template AGES - Latex/main.tex"
-(/home/lucas-taborda/Área de trabalho/Template AGES - Latex/main.tex
+**"/home/lucas-taborda/Área de trabalho/Trabalho-de-conclus-o-de-curso-PUCRS/main.tex"
+(/home/lucas-taborda/Área de trabalho/Trabalho-de-conclus-o-de-curso-PUCRS/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2.cls
@@ -1246,26 +1246,26 @@ although it is yet undefined on input line 11.
  [21]
 Package acronym Info: Label `acro:ia' newly defined as it shall be overridden
 although it is yet undefined on input line 24.
- [22]) (./conteudo/3 - ages II/conteudo/sprints/sprint 1.tex [23] [24]) (./conteudo/3 - ages II/conteudo/sprints/sprint 2.tex) (./conteudo/3 - ages II/conteudo/sprints/sprint 3.tex) (./conteudo/3 - ages II/conteudo/sprints/sprint 4.tex)) (./conteudo/3 - ages II/conteudo/4 - conclusao.tex [25])) [26]
+ [22]) (./conteudo/3 - ages II/conteudo/sprints/sprint 1.tex [23] [24]) (./conteudo/3 - ages II/conteudo/sprints/sprint 2.tex [25] [26]) (./conteudo/3 - ages II/conteudo/sprints/sprint 3.tex [27] [28]) (./conteudo/3 - ages II/conteudo/sprints/sprint 4.tex [29] [30] [31] [32])) (./conteudo/3 - ages II/conteudo/4 - conclusao.tex [33])) [34]
 \openout2 = `"conteudo/4 - ages III/index.aux"'.
 
- (./conteudo/4 - ages III/index.tex (./conteudo/4 - ages III/conteudo/1 - introducao.tex) (./conteudo/4 - ages III/conteudo/2 - desenvolvimento.tex) (./conteudo/4 - ages III/conteudo/3 - atividades.tex (./conteudo/4 - ages III/conteudo/sprints/sprint 0.tex) (./conteudo/4 - ages III/conteudo/sprints/sprint 1.tex) (./conteudo/4 - ages III/conteudo/sprints/sprint 2.tex [27
+ (./conteudo/4 - ages III/index.tex (./conteudo/4 - ages III/conteudo/1 - introducao.tex) (./conteudo/4 - ages III/conteudo/2 - desenvolvimento.tex) (./conteudo/4 - ages III/conteudo/3 - atividades.tex (./conteudo/4 - ages III/conteudo/sprints/sprint 0.tex) (./conteudo/4 - ages III/conteudo/sprints/sprint 1.tex) (./conteudo/4 - ages III/conteudo/sprints/sprint 2.tex [35
 
 
 
 
-]) (./conteudo/4 - ages III/conteudo/sprints/sprint 3.tex) (./conteudo/4 - ages III/conteudo/sprints/sprint 4.tex)) (./conteudo/4 - ages III/conteudo/4 - conclusao.tex)) [28]
+]) (./conteudo/4 - ages III/conteudo/sprints/sprint 3.tex) (./conteudo/4 - ages III/conteudo/sprints/sprint 4.tex)) (./conteudo/4 - ages III/conteudo/4 - conclusao.tex)) [36]
 \openout2 = `"conteudo/5 - ages IV/index.aux"'.
 
- (./conteudo/5 - ages IV/index.tex (./conteudo/5 - ages IV/conteudo/1 - introducao.tex) (./conteudo/5 - ages IV/conteudo/2 - desenvolvimento.tex) (./conteudo/5 - ages IV/conteudo/3 - atividades.tex (./conteudo/5 - ages IV/conteudo/sprints/sprint 0.tex) (./conteudo/5 - ages IV/conteudo/sprints/sprint 1.tex) (./conteudo/5 - ages IV/conteudo/sprints/sprint 2.tex [29
+ (./conteudo/5 - ages IV/index.tex (./conteudo/5 - ages IV/conteudo/1 - introducao.tex) (./conteudo/5 - ages IV/conteudo/2 - desenvolvimento.tex) (./conteudo/5 - ages IV/conteudo/3 - atividades.tex (./conteudo/5 - ages IV/conteudo/sprints/sprint 0.tex) (./conteudo/5 - ages IV/conteudo/sprints/sprint 1.tex) (./conteudo/5 - ages IV/conteudo/sprints/sprint 2.tex [37
 
 
 
 
-]) (./conteudo/5 - ages IV/conteudo/sprints/sprint 3.tex) (./conteudo/5 - ages IV/conteudo/sprints/sprint 4.tex)) (./conteudo/5 - ages IV/conteudo/4 - conclusao.tex)) [30]
+]) (./conteudo/5 - ages IV/conteudo/sprints/sprint 3.tex) (./conteudo/5 - ages IV/conteudo/sprints/sprint 4.tex)) (./conteudo/5 - ages IV/conteudo/4 - conclusao.tex)) [38]
 \openout2 = `"conteudo/6 - consideracoes/consideracoes.aux"'.
 
- (./conteudo/6 - consideracoes/consideracoes.tex) [31
+ (./conteudo/6 - consideracoes/consideracoes.tex) [39
 
 
 
@@ -1280,7 +1280,7 @@ LaTeX Warning: Empty bibliography on input line 2.
 )
 \openout2 = `"conteudo/8 - apendices/apendices.aux"'.
 
- (./conteudo/8 - apendices/apendices.tex) [32
+ (./conteudo/8 - apendices/apendices.tex) [40
 
 
 
@@ -1308,18 +1308,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25935 strings out of 476162
- 468699 string characters out of 5794815
+ 25957 strings out of 476162
+ 468954 string characters out of 5794815
  1935975 words of memory out of 5000000
  47270 multiletter control sequences out of 15000+600000
  582497 words of font info for 63 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
- 99i,12n,107p,1211b,4319s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,12n,107p,1226b,4319s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/lucas-taborda/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (33 pages, 1071945 bytes).
+Output written on main.pdf (41 pages, 1090109 bytes).
 PDF statistics:
- 581 PDF objects out of 1000 (max. 8388607)
- 474 compressed objects within 5 object streams
- 140 named destinations out of 1000 (max. 500000)
+ 649 PDF objects out of 1000 (max. 8388607)
+ 533 compressed objects within 6 object streams
+ 162 named destinations out of 1000 (max. 500000)
  214 words of extra memory for PDF output out of 10000 (max. 10000000)
 

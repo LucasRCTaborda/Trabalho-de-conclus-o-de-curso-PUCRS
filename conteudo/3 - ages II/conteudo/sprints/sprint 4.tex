@@ -1,3 +1,146 @@
 \subsection{Sprint 4}
 
-No mínimo uma página contendo tudo que o aluno fez na Sprint 4.
+\subsubsection*{Planejamento e Distribuição das Atividades}
+
+Na definição das tarefas da Sprint 4, a Squad ficou responsável pelo desenvolvimento
+da \textbf{Task 16 -- Gestão de Vagas do Usuário Empresa}. A distribuição das
+atividades ocorreu da seguinte forma: o desenvolvimento do \textit{frontend} ficou
+sob minha responsabilidade, enquanto os integrantes Mayra e Vinícius ficaram
+responsáveis pelas atividades de \textit{backend}. Adicionalmente, foi atribuída a
+mim uma atividade de débito técnico referente à \textbf{Task 5.0 -- Cursos Internos},
+relacionada ao cadastro de cursos internos para alunos.
+
+\subsubsection*{Débito Técnico -- Task 5.0: Cursos Internos}
+
+Após a definição das tarefas, foi realizada a atualização do ambiente de
+desenvolvimento com o objetivo de iniciar a implementação da Task 5.0. Durante esse
+processo, as imagens antigas do Docker foram removidas e o ambiente foi reconstruído
+integralmente, seguido da execução de testes para validação do funcionamento da
+aplicação.
+
+Ao iniciar a análise da funcionalidade, observou-se que os requisitos descritos na
+Task 5.0 já estavam implementados no ambiente de desenvolvimento. Foi realizada uma
+verificação detalhada dos fluxos da aplicação, confirmando que os critérios de
+aceitação previstos estavam atendidos. Dessa forma, concluiu-se que a funcionalidade
+já havia sido desenvolvida anteriormente.
+
+Durante a revisão da implementação, foi identificado um problema no fluxo de inscrição
+em cursos externos. Embora a informação referente ao link de inscrição estivesse
+corretamente armazenada no banco de dados e retornada pela \ac{api}, verificou-se que
+esse campo não estava sendo utilizado na interface \textit{frontend}. Após a
+confirmação da situação por meio de consultas realizadas no Postman, foi encaminhada
+uma comunicação ao integrante responsável da \ac{ages} IV relatando que a
+funcionalidade principal já se encontrava implementada, restando apenas a correção
+relacionada à exibição do link de inscrição.
+
+Posteriormente, foi constatado que o desenvolvimento original da funcionalidade havia
+sido realizado por um integrante da \ac{ages} III. Diante disso, a inconsistência
+identificada foi repassada a ele, permitindo que a correção fosse realizada em conjunto
+durante a aula. Após a implementação da exibição do link de inscrição, a alteração foi
+integrada ao código do projeto.
+
+\subsubsection*{Task 16.1 -- Desenvolvimento do Frontend de Gestão de Vagas}
+
+No dia 09/06, teve início o desenvolvimento da Task 16.1 -- Gestão de Vagas para
+Usuário Empresa, referente ao \textit{frontend} da funcionalidade. Durante a análise
+inicial, foi identificada a existência de uma \textit{branch} no repositório contendo
+uma implementação parcial da tela. Após verificação, constatou-se que a
+\textit{branch} havia sido iniciada anteriormente pela integrante Ana, da \ac{ages}
+III, porém ainda não havia sido submetida para aprovação por meio de
+\textit{Pull Request}.
+
+Considerando a existência dessa implementação preliminar, foi realizada uma análise
+comparativa entre os requisitos descritos no ClickUp, o protótipo disponibilizado no
+Figma e os padrões adotados em outras telas do sistema. Essa análise permitiu
+identificar quais elementos poderiam ser reaproveitados e quais necessitavam de
+adequação para atender aos critérios estabelecidos.
+
+As principais alterações realizadas envolveram a refatoração da tela de Gestão de
+Vagas da Empresa, a padronização dos filtros de pesquisa, a correção da paginação,
+a adequação dos ícones utilizados e a reorganização dos componentes visuais para
+alinhamento com o \textit{design} definido no Figma. Também foram realizadas
+verificações de conformidade com os padrões arquiteturais e visuais do projeto,
+seguidas da execução de testes manuais para validação do funcionamento da
+funcionalidade.
+
+Após a conclusão das atividades, foi aberto o \textit{Pull Request} referente às
+alterações desenvolvidas. Em seguida, o integrante HArthur, da \ac{ages} IV, informou
+que realizaria uma refatoração de componentes compartilhados, uma vez que havia
+desenvolvido novos componentes que já estavam sendo utilizados em outras páginas do
+sistema. O acompanhamento dessa atividade foi realizado de forma conjunta e, após
+aproximadamente trinta minutos de ajustes e validações, a \textit{branch} foi integrada
+à \textit{branch} Development do projeto.
+
+\subsubsection*{Task 16.2 -- Suporte ao Desenvolvimento do Backend}
+
+No dia 11/06, foi realizado contato com os integrantes da Squad para verificar o
+andamento das atividades de \textit{backend} relacionadas à Task 16.2 e suas
+respectivas subtarefas. Durante a conversa, foi informado que um dos integrantes não
+conseguiria concluir o desenvolvimento dentro do prazo previsto e, considerando a
+proximidade da data de entrega, foi solicitada minha colaboração para auxiliar na
+implementação.
+
+Ao iniciar a análise da funcionalidade, em um primeiro momento não foram identificadas
+pendências evidentes. Entretanto, considerando que se tratava de uma funcionalidade
+associada a uma nova tela e que ainda não havia sido desenvolvida pelos integrantes
+responsáveis, foi realizada uma verificação mais aprofundada, comparando os requisitos
+descritos no ClickUp com a implementação existente.
+
+Durante essa análise, foi identificada a ausência do campo \textit{Work Type},
+responsável por indicar a modalidade da vaga, podendo assumir os valores
+\textit{presencial}, \textit{remoto} ou \textit{híbrido}. Por meio da análise da
+estrutura do banco de dados PostgreSQL, foram identificados os campos correspondentes,
+permitindo a implementação da funcionalidade necessária para disponibilizar essa
+informação corretamente.
+
+Além disso, foi constatado que a funcionalidade de criação de vagas não estava
+retornando adequadamente as habilidades (\textit{Skills}) associadas à vaga. Após a
+análise da lógica implementada, verificou-se que a consulta retornava apenas os
+identificadores (UUIDs) provenientes da tabela de relacionamento \textit{SkillJob},
+sem fornecer as informações necessárias para exibição na aplicação. Dessa forma, foram
+realizados os ajustes necessários para retornar corretamente os dados relacionados às
+habilidades, tornando a funcionalidade compatível com os requisitos definidos.
+
+Após a conclusão das alterações, foi aberto um \textit{Pull Request} e executadas as
+validações automáticas disponibilizadas pelo projeto, incluindo as verificações
+realizadas pelo GitHub Actions e GitHub Copilot, sem que fossem identificados erros de
+implementação.
+
+Posteriormente, durante uma conversa com o integrante responsável da \ac{ages} IV,
+foi informado que as funcionalidades já haviam sido implementadas anteriormente e que
+a versão disponível no ambiente Development correspondia a uma atualização recente
+realizada por ele. Diante dessa informação, foram apresentados os pontos identificados
+durante a análise, especificamente as possíveis inconsistências relacionadas ao campo
+\textit{Work Type} e ao retorno das \textit{Skills}. Após nova validação da equipe,
+foi confirmado que as pendências identificadas já haviam sido solucionadas, resultando
+na conclusão das atividades sob minha responsabilidade.
+
+\subsubsection*{Semana de Freeze -- Suporte a Débito Técnico}
+
+Durante a semana de Freeze do projeto, fui procurado por integrantes da Squad em razão
+de dificuldades enfrentadas por uma colega da \ac{ages} I na execução de uma tarefa de
+débito técnico. Com o objetivo de auxiliar na resolução do problema, foi realizada a
+atualização do ambiente de desenvolvimento e uma análise da funcionalidade em questão.
+
+Após a investigação do comportamento apresentado, foi identificada uma possível causa
+para o problema e elaborada uma sugestão de solução. As orientações técnicas sobre os
+ajustes que poderiam ser realizados foram repassadas à colega, que aplicou a abordagem
+sugerida com sucesso, permitindo a conclusão da atividade.
+
+\subsubsection*{Avaliação da Sprint}
+
+A Sprint 4 evidenciou a importância da comunicação contínua entre os integrantes da
+equipe e entre as diferentes turmas do projeto. Em mais de uma situação, a troca de
+informações com colegas de \ac{ages} III e \ac{ages} IV foi determinante para evitar
+retrabalho e garantir a consistência das entregas.
+
+A experiência de atuar tanto no \textit{frontend} quanto no \textit{backend} ao longo
+da sprint proporcionou uma visão mais abrangente da funcionalidade desenvolvida, além
+de reforçar a capacidade de adaptação diante de necessidades imprevistas da equipe. A
+identificação proativa de inconsistências -- mesmo em atividades que não eram de
+responsabilidade direta -- contribuiu para a qualidade geral do produto entregue.
+
+Por fim, o suporte prestado à colega durante a semana de Freeze reforçou a dinâmica
+colaborativa da equipe, demonstrando que a solidariedade entre os integrantes, mesmo
+em períodos de menor atividade formal, é um fator relevante para o sucesso do projeto
+como um todo.
