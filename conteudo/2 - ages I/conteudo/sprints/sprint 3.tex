@@ -1,0 +1,32 @@
+\subsection{Sprint 3}
+
+Com tudo o que aconteceu no Rio Grande do Sul, o time foi afetado de diferentes
+formas, e muitos colegas tinham dificuldades para participar das aulas online. A nossa
+\ac{ages} IV, Sofia, entrou em contato individualmente com cada membro perguntando
+como estávamos e se conseguiríamos participar normalmente. Apesar de eu não ter sido
+afetado diretamente pelas enchentes, estava com parentes temporariamente em casa,
+pois tinham perdido tudo --- casa e loja --- na enchente em Mathias Velho, Canoas.
+
+Confirmei minha presença e que trabalharia o máximo possível. Logo após a
+retrospectiva, o time dividiu as tasks e fiquei responsável por implementar a
+\textbf{Issue 17 --- Solicitação de Falta}.
+
+Comecei a desenvolver uma estratégia para implementar a funcionalidade e decidi criar
+uma nova entidade: \textit{absenceNotice}. Ao apresentar a proposta ao Pedro, ele
+sugeriu uma abordagem diferente e mais enxuta: \textbf{reutilizar e completar a
+entidade \textit{Request}}, que estava incompleta no projeto. Segui a sugestão e,
+de fato, economizei muito código, além de aproveitar uma estrutura que já fazia parte
+do sistema.
+
+Ao finalizar o desenvolvimento, precisava realizar os testes, mas me deparei com um
+problema: os POSTs não estavam funcionando. Após investigar, descobri que precisava
+\textbf{derrubar e reinstanciar todo o Docker}. Após fazer isso, o erro persistiu ---
+dessa vez, porque havia sido implementada autenticação e era necessário cadastrar
+usuário e senha para realizar as requisições. Após configurar corretamente, tudo
+funcionou.
+
+Com a ajuda da Laura, executamos os testes, identificamos um erro remanescente,
+corrigimos e o \textbf{MR foi aprovado com sucesso}. Foi uma sprint marcante tanto
+pelo contexto externo difícil quanto pelo aprendizado técnico: aprendi sobre
+reutilização de entidades, autenticação em APIs e o processo completo de resolução
+de problemas em ambiente Docker.

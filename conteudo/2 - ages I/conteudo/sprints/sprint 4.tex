@@ -1,0 +1,49 @@
+\subsection{Sprint 4}
+
+Chegando à Sprint 4, iniciamos a planning avaliando o que havia sido feito até então,
+o que precisava ser finalizado das sprints anteriores e o que ainda faltava entregar.
+A conclusão foi \textbf{excluir as funcionalidades do usuário professor}, pois não
+haveria tempo hábil para implementá-las. Essa decisão já havia sido comunicada à
+stakeholder, que compreendeu e aceitou tranquilamente, ciente de que a construção
+desse perfil poderia ser continuada futuramente.
+
+Nesta sprint, realizei, com apoio de colegas, \textbf{três tasks}:
+
+\subsubsection*{Front-end --- Issue 82: Cadastrar usuário aluno}
+
+No front-end, trabalhei na Issue 82, referente ao cadastro de usuário aluno. Tive
+dificuldade em definir a melhor abordagem para a task, pois adicionar um novo ícone
+à interface poluiria a área com informações em excesso. A ideia foi criar, dentro do
+\textit{``editar aluno''}, uma opção para adicionar senha e criar o usuário; após o
+usuário ser criado, essa opção não apareceria mais.
+
+Comecei a implementar a integração, mas não conseguia conectar com o backend por
+falta de prática com front-end. Pedi ajuda ao Mauro, que se disponibilizou para uma
+call na sexta-feira, 21/06, às 21h. Começamos a implementação pelo backend, mas
+encontramos diversos erros --- alguns \textit{endpoints} não retornavam ao front-end
+o que era solicitado. Às 23h30, fizemos o push no estado em que estava para tentar
+resolver no dia seguinte. Encaminhei o código para a Laura, que já havia tentado a
+mesma abordagem. Ela retornou com o \textit{feedback} de que também encontrou
+dificuldades com nossa abordagem e preferiu criar um \textit{modal} simples com um
+botão para criar o usuário, conforme a proposta inicial, pois era mais prático. Ela
+entregou o \ac{mr} funcionando e testado.
+
+\subsubsection*{Back-end --- Issue 23: Adicionar professor à aula}
+
+A Issue 23 consistia em adicionar o professor à aula. Identificamos que a entidade
+\textit{course} não possuía um professor cadastrado como responsável principal.
+As mudanças foram objetivas: adicionamos o campo professor na \textit{Entity course}
+e ajustamos as demais entidades relacionadas, incluindo \textit{controller},
+\textit{service} e DTOs com as novas \textit{features}.
+
+\subsubsection*{Back-end --- Issue 24: Adicionar aluno temporário à aula}
+
+A Issue 24 era adicionar aluno temporário à aula. Inicialmente imaginei que seria
+similar à Issue 23, mas durante o desenvolvimento encontrei muitos conflitos entre
+as entidades. Preferi pedir ajuda ao Mauro, que se disponibilizou novamente para uma
+call na sexta-feira à noite. Sua contribuição foi essencial: ele propôs trabalhar de
+forma a não alterar muito a entidade \textit{course}, recebendo uma lista de alunos e
+centralizando a lógica na entidade \textit{Aluno}. Implementamos uma série de
+pequenas alterações e validações no sistema, testamos os inserts e tudo funcionou
+corretamente. Aproveitei também para pedir que ele revisasse a Issue 23, e ele deu
+dicas valiosas para otimizar a implementação. Foi um dia extremamente produtivo.

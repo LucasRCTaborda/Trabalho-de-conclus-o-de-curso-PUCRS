@@ -1,0 +1,94 @@
+\subsection{Sprint 3}
+
+\subsubsection*{Planejamento e Distribuição das Atividades}
+
+Com a definição das tarefas previstas para a Sprint 3, a Squad Ninja ficou responsável
+pela implementação da funcionalidade de \textbf{Gestão de Currículos}, destinada ao
+uso administrativo da plataforma.
+
+A divisão das responsabilidades ocorreu da seguinte forma: Mayra (\ac{ages} I) ficou
+responsável pelo desenvolvimento do backend da funcionalidade; Vinicius (\ac{ages} III)
+atuou no acompanhamento das atividades da equipe, conferência de \textit{Pull Requests}
+e suporte para esclarecimento de dúvidas; enquanto eu fiquei responsável pelo
+desenvolvimento do frontend da task. Além disso, também assumi uma atividade
+relacionada a débito técnico, denominada \textbf{Desmock do Dashboard da Administração}.
+
+\subsubsection*{Desenvolvimento da Funcionalidade de Gestão de Currículos}
+
+No dia seguinte ao planejamento da sprint, iniciei o desenvolvimento da funcionalidade
+a partir da descrição presente no épico:
+
+\begin{quotation}
+\itshape
+``Será adicionado um botão, na coluna ações, na tabela de gestão de alunos. Ao clicar,
+o administrador será redirecionado para visualização de currículo daquele estudante.''
+\end{quotation}
+
+Com base nessa descrição, interpretei que seria necessário implementar um botão para
+visualização dos currículos dos alunos. Considerando o contexto da funcionalidade,
+desenvolvi a solução tanto para a tela de Gestão de Alunos quanto para a tela de Gestão
+de Currículos, realizando as alterações necessárias no frontend e no backend.
+
+Após concluir a implementação, informei ao \ac{ages} IV responsável pela atividade.
+Posteriormente, foi esclarecido que havia ocorrido uma inconsistência na comunicação
+dos requisitos e que o botão deveria estar presente apenas na tela de Gestão de
+Currículos. Mesmo assim, durante as discussões realizadas, foi considerado que a
+funcionalidade poderia permanecer implementada localmente para futuras avaliações,
+uma vez que não impactava negativamente a interface e poderia representar uma melhoria
+de usabilidade.
+
+Durante esse processo também foram identificados alguns problemas relacionados aos
+filtros da aplicação, que foram reportados à equipe e posteriormente corrigidos.
+
+\subsubsection*{Implementação da Tela de Gestão de Currículos}
+
+Na semana seguinte, foi desenvolvido o frontend da tela de Gestão de Currículos. Para
+acelerar a implementação e manter a consistência visual do sistema, utilizou-se como
+referência a tela já existente de Gestão de Alunos, uma vez que ambas possuíam
+estrutura e campos semelhantes.
+
+Durante o desenvolvimento foi identificada uma diferença relacionada ao componente de
+paginação, que ainda utilizava um padrão anterior do projeto. Essa situação ocorreu
+porque a branch local não estava completamente atualizada com a versão mais recente
+da branch de desenvolvimento. Entretanto, essa diferença não comprometeu o andamento
+da implementação nem a integração da funcionalidade.
+
+\subsubsection*{Desenvolvimento da Task de Débito Técnico}
+
+Durante a análise da task de débito técnico, identifiquei uma possível semelhança entre
+a atividade que me havia sido atribuída e outra que já estava em andamento por outro
+integrante da equipe. Diante dessa situação, busquei alinhamento com os envolvidos
+para confirmar se ambas as demandas eram realmente distintas.
+
+Na ocasião, o entendimento do meu colega era de que as tarefas possuíam escopos
+diferentes, principalmente devido às diferenças observadas nas descrições registradas.
+Com base nessas informações, prossegui com a implementação da funcionalidade e
+realizei a abertura do \textit{Pull Request} para revisão.
+
+Posteriormente, durante o processo de conferência, foi constatado que ambas as
+atividades atendiam à mesma necessidade do sistema, resultando em uma implementação
+duplicada. Como consequência, o \textit{Pull Request} foi encerrado sem integração ao
+projeto.
+
+Essa situação reforçou a importância de uma comunicação mais centralizada entre os
+responsáveis pela definição das tarefas e os desenvolvedores, bem como da manutenção
+de descrições mais detalhadas e alinhadas entre as diferentes fontes de planejamento.
+
+\subsubsection*{Avaliação da Sprint}
+
+De maneira geral, a Sprint 3 apresentou resultados bastante positivos. Foi possível
+perceber uma evolução significativa na maturidade das squads e na capacidade de entrega
+da equipe. Comparativamente às sprints anteriores, houve um aumento na quantidade de
+tarefas desenvolvidas dentro do mesmo período de tempo, sem prejuízo à qualidade das
+entregas.
+
+Outro aspecto que demonstrou evolução foi a documentação das atividades no ClickUp.
+As tarefas passaram a apresentar descrições mais completas e detalhadas, reduzindo
+ambiguidades e facilitando a compreensão dos requisitos. Em muitos casos, além dos
+épicos principais, as subtarefas continham detalhamentos adicionais que auxiliavam
+diretamente no desenvolvimento.
+
+Por fim, a apresentação das funcionalidades para a stakeholder demonstrou que as
+entregas realizadas estavam alinhadas às expectativas do projeto. O retorno recebido
+evidenciou satisfação com os resultados alcançados e reforçou a percepção de que as
+demandas apresentadas estavam sendo atendidas de forma consistente pela equipe.
