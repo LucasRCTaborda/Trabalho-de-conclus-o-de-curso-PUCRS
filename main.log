@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.6.9)  17 JUN 2026 14:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.6.9)  22 JUN 2026 14:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1167,12 +1167,17 @@ although it is yet undefined on input line 3.
 \openout2 = `"conteudo/2 - ages I/index.aux"'.
 
  (./conteudo/2 - ages I/index.tex (./conteudo/2 - ages I/conteudo/1 - introducao.tex
-<conteudo//2 - ages I//conteudo//figures/foto-time.jpg, id=173, 2055.68pt x 1084.05pt>
-File: conteudo//2 - ages I//conteudo//figures/foto-time.jpg Graphic file (type jpg)
-<use conteudo//2 - ages I//conteudo//figures/foto-time.jpg>
-Package pdftex.def Info: conteudo//2 - ages I//conteudo//figures/foto-time.jpg  used on input line 18.
-(pdftex.def)             Requested size: 455.24411pt x 240.06316pt.
-) (./conteudo/2 - ages I/conteudo/2 - desenvolvimento.tex
+<conteudo//2 - ages I//conteudo//figures/TimeENSportive.jpeg, id=187, 903.375pt x 1204.5pt>
+File: conteudo//2 - ages I//conteudo//figures/TimeENSportive.jpeg Graphic file (type jpg)
+<use conteudo//2 - ages I//conteudo//figures/TimeENSportive.jpeg>
+Package pdftex.def Info: conteudo//2 - ages I//conteudo//figures/TimeENSportive.jpeg  used on input line 18.
+(pdftex.def)             Requested size: 455.24411pt x 607.00873pt.
+) (./conteudo/2 - ages I/conteudo/2 - desenvolvimento.tex [10
+
+
+
+
+] [11 <./conteudo//2 - ages I//conteudo//figures/TimeENSportive.jpeg>]
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 8.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
@@ -1185,38 +1190,59 @@ Overfull \hbox (8.71707pt too wide) in paragraph at lines 8--9
 []\T1/phv/b/n/12 Backend: [][]$\T1/cmtt/m/n/12 https : / / tools . ages . pucrs . br / ensportive / ensportive -[] backend . git$[][] 
  []
 
-[10
-
-
-
-
- <./conteudo//2 - ages I//conteudo//figures/foto-time.jpg>]
 Package acronym Info: Label `acro:jdbc' newly defined as it shall be overridden
 although it is yet undefined on input line 15.
- [11]
+<conteudo//2 - ages I//conteudo//figures/DadosENSportive.png, id=200, 965.6075pt x 764.8575pt>
+File: conteudo//2 - ages I//conteudo//figures/DadosENSportive.png Graphic file (type png)
+<use conteudo//2 - ages I//conteudo//figures/DadosENSportive.png>
+Package pdftex.def Info: conteudo//2 - ages I//conteudo//figures/DadosENSportive.png  used on input line 36.
+(pdftex.def)             Requested size: 455.24411pt x 360.5918pt.
+[12]
+<conteudo//2 - ages I//conteudo//figures/ArquiteturaENSportive.jpg, id=211, 774.895pt x 569.12625pt>
+File: conteudo//2 - ages I//conteudo//figures/ArquiteturaENSportive.jpg Graphic file (type jpg)
+<use conteudo//2 - ages I//conteudo//figures/ArquiteturaENSportive.jpg>
+Package pdftex.def Info: conteudo//2 - ages I//conteudo//figures/ArquiteturaENSportive.jpg  used on input line 52.
+(pdftex.def)             Requested size: 455.24411pt x 334.35738pt.
+ [13 <./conteudo//2 - ages I//conteudo//figures/DadosENSportive.png>]
+<conteudo//2 - ages I//conteudo//figures/InfraENSportive.png, id=218, 1475.5125pt x 783.92876pt>
+File: conteudo//2 - ages I//conteudo//figures/InfraENSportive.png Graphic file (type png)
+<use conteudo//2 - ages I//conteudo//figures/InfraENSportive.png>
+Package pdftex.def Info: conteudo//2 - ages I//conteudo//figures/InfraENSportive.png  used on input line 63.
+(pdftex.def)             Requested size: 455.24411pt x 241.86707pt.
+ [14 <./conteudo//2 - ages I//conteudo//figures/ArquiteturaENSportive.jpg>]
 Package acronym Info: Label `acro:css' newly defined as it shall be overridden
-although it is yet undefined on input line 57.
+although it is yet undefined on input line 86.
 Package acronym Info: Label `acro:rest' newly defined as it shall be overridden
-although it is yet undefined on input line 61.
-) (./conteudo/2 - ages I/conteudo/3 - atividades.tex (./conteudo/2 - ages I/conteudo/sprints/sprint 0.tex
+although it is yet undefined on input line 90.
+ [15 <./conteudo//2 - ages I//conteudo//figures/InfraENSportive.png>]) (./conteudo/2 - ages I/conteudo/3 - atividades.tex (./conteudo/2 - ages I/conteudo/sprints/sprint 0.tex
 Package acronym Info: Label `acro:api' newly defined as it shall be overridden
 although it is yet undefined on input line 5.
- [12]) (./conteudo/2 - ages I/conteudo/sprints/sprint 1.tex [13]) (./conteudo/2 - ages I/conteudo/sprints/sprint 2.tex [14]
+ [16]) (./conteudo/2 - ages I/conteudo/sprints/sprint 1.tex [17]) (./conteudo/2 - ages I/conteudo/sprints/sprint 2.tex
 Package acronym Info: Label `acro:html' newly defined as it shall be overridden
 although it is yet undefined on input line 24.
-) (./conteudo/2 - ages I/conteudo/sprints/sprint 3.tex [15]
+ [18]) (./conteudo/2 - ages I/conteudo/sprints/sprint 3.tex
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
 (Font)              Font shape `T1/phv/b/sl' tried instead on input line 17.
-) (./conteudo/2 - ages I/conteudo/sprints/sprint 4.tex [16]
+ [19]) (./conteudo/2 - ages I/conteudo/sprints/sprint 4.tex
 Package acronym Info: Label `acro:mr' newly defined as it shall be overridden
 although it is yet undefined on input line 29.
-)) (./conteudo/2 - ages I/conteudo/4 - conclusao.tex [17] [18])) [19]
+ [20])) (./conteudo/2 - ages I/conteudo/4 - conclusao.tex [21])) [22]
 \openout2 = `"conteudo/3 - ages II/index.aux"'.
 
  (./conteudo/3 - ages II/index.tex (./conteudo/3 - ages II/conteudo/1 - introducao.tex
 Package acronym Info: Label `acro:pcd' newly defined as it shall be overridden
 although it is yet undefined on input line 4.
-) (./conteudo/3 - ages II/conteudo/2 - desenvolvimento.tex
+<conteudo//3 - ages II//conteudo//figures/TimeAF.png, id=297, 1606.0pt x 903.375pt>
+File: conteudo//3 - ages II//conteudo//figures/TimeAF.png Graphic file (type png)
+<use conteudo//3 - ages II//conteudo//figures/TimeAF.png>
+Package pdftex.def Info: conteudo//3 - ages II//conteudo//figures/TimeAF.png  used on input line 23.
+(pdftex.def)             Requested size: 455.24411pt x 256.07233pt.
+) (./conteudo/3 - ages II/conteudo/2 - desenvolvimento.tex [23
+
+
+
+
+ <./conteudo//3 - ages II//conteudo//figures/TimeAF.png>]
 Overfull \hbox (22.56406pt too wide) in paragraph at lines 8--9
 []\T1/phv/b/n/12 Backend: [][]$\T1/cmtt/m/n/12 https : / / tools . ages . pucrs . br / sistema -[] amores -[] fati / sistema -[] amores -[]
  []
@@ -1230,42 +1256,60 @@ Package acronym Info: Label `acro:sql' newly defined as it shall be overridden
 although it is yet undefined on input line 16.
 Package acronym Info: Label `acro:uml' newly defined as it shall be overridden
 although it is yet undefined on input line 16.
-[20
+<conteudo//3 - ages II//conteudo//figures/BancoDadosAF.png, id=309, 2678.005pt x 2682.02pt>
+File: conteudo//3 - ages II//conteudo//figures/BancoDadosAF.png Graphic file (type png)
+<use conteudo//3 - ages II//conteudo//figures/BancoDadosAF.png>
+Package pdftex.def Info: conteudo//3 - ages II//conteudo//figures/BancoDadosAF.png  used on input line 25.
+(pdftex.def)             Requested size: 455.24411pt x 455.89645pt.
+[24]
+<conteudo//3 - ages II//conteudo//figures/ArquiteturaAF.png, id=319, 616.3025pt x 1334.9875pt>
+File: conteudo//3 - ages II//conteudo//figures/ArquiteturaAF.png Graphic file (type png)
+<use conteudo//3 - ages II//conteudo//figures/ArquiteturaAF.png>
+Package pdftex.def Info: conteudo//3 - ages II//conteudo//figures/ArquiteturaAF.png  used on input line 41.
+(pdftex.def)             Requested size: 455.24411pt x 986.14384pt.
+ [25 <./conteudo//3 - ages II//conteudo//figures/BancoDadosAF.png>]
+Overfull \vbox (320.11565pt too high) has occurred while \output is active []
 
+ [26 <./conteudo//3 - ages II//conteudo//figures/ArquiteturaAF.png>]
+<conteudo//3 - ages II//conteudo//figures/ArquiteturaAF2.png, id=331, 581.17125pt x 934.49126pt>
+File: conteudo//3 - ages II//conteudo//figures/ArquiteturaAF2.png Graphic file (type png)
+<use conteudo//3 - ages II//conteudo//figures/ArquiteturaAF2.png>
+Package pdftex.def Info: conteudo//3 - ages II//conteudo//figures/ArquiteturaAF2.png  used on input line 50.
+(pdftex.def)             Requested size: 455.24411pt x 732.02301pt.
 
+Overfull \vbox (65.99481pt too high) has occurred while \output is active []
 
-
-]
-Overfull \hbox (7.87216pt too wide) in paragraph at lines 34--35
+ [27 <./conteudo//3 - ages II//conteudo//figures/ArquiteturaAF2.png>]
+Overfull \hbox (7.87216pt too wide) in paragraph at lines 61--62
 [][][]$\T1/cmtt/m/n/12 https : / / www . figma . com / design / pcQ9rEVhEWim4YtQj328CC / Amores -[] Fati ? node -[] id =
  []
 
 ) (./conteudo/3 - ages II/conteudo/3 - atividades.tex (./conteudo/3 - ages II/conteudo/sprints/sprint 0.tex
 Package acronym Info: Label `acro:mvp' newly defined as it shall be overridden
 although it is yet undefined on input line 11.
- [21]
+ [28]
 Package acronym Info: Label `acro:ia' newly defined as it shall be overridden
 although it is yet undefined on input line 24.
- [22]) (./conteudo/3 - ages II/conteudo/sprints/sprint 1.tex [23] [24]) (./conteudo/3 - ages II/conteudo/sprints/sprint 2.tex [25] [26]) (./conteudo/3 - ages II/conteudo/sprints/sprint 3.tex [27] [28]) (./conteudo/3 - ages II/conteudo/sprints/sprint 4.tex [29] [30] [31] [32])) (./conteudo/3 - ages II/conteudo/4 - conclusao.tex [33])) [34]
+ [29]) (./conteudo/3 - ages II/conteudo/sprints/sprint 1.tex [30] [31]) (./conteudo/3 - ages II/conteudo/sprints/sprint 2.tex [32] [33]) (./conteudo/3 - ages II/conteudo/sprints/sprint 3.tex [34] [35]) (./conteudo/3 - ages II/conteudo/sprints/sprint 4.tex [36] [37] [38] [39])) (./conteudo/3 - ages II/conteudo/4 - conclusao.tex)) [40]
 \openout2 = `"conteudo/4 - ages III/index.aux"'.
 
- (./conteudo/4 - ages III/index.tex (./conteudo/4 - ages III/conteudo/1 - introducao.tex) (./conteudo/4 - ages III/conteudo/2 - desenvolvimento.tex) (./conteudo/4 - ages III/conteudo/3 - atividades.tex (./conteudo/4 - ages III/conteudo/sprints/sprint 0.tex) (./conteudo/4 - ages III/conteudo/sprints/sprint 1.tex) (./conteudo/4 - ages III/conteudo/sprints/sprint 2.tex [35
+ (./conteudo/4 - ages III/index.tex (./conteudo/4 - ages III/conteudo/1 - introducao.tex) (./conteudo/4 - ages III/conteudo/2 - desenvolvimento.tex) (./conteudo/4 - ages III/conteudo/3 - atividades.tex (./conteudo/4 - ages III/conteudo/sprints/sprint 0.tex) (./conteudo/4 - ages III/conteudo/sprints/sprint 1.tex) (./conteudo/4 - ages III/conteudo/sprints/sprint 2.tex [41
 
 
 
 
-]) (./conteudo/4 - ages III/conteudo/sprints/sprint 3.tex) (./conteudo/4 - ages III/conteudo/sprints/sprint 4.tex)) (./conteudo/4 - ages III/conteudo/4 - conclusao.tex)) [36]
+]) (./conteudo/4 - ages III/conteudo/sprints/sprint 3.tex) (./conteudo/4 - ages III/conteudo/sprints/sprint 4.tex)) (./conteudo/4 - ages III/conteudo/4 - conclusao.tex)) [42]
 \openout2 = `"conteudo/5 - ages IV/index.aux"'.
 
- (./conteudo/5 - ages IV/index.tex (./conteudo/5 - ages IV/conteudo/1 - introducao.tex) (./conteudo/5 - ages IV/conteudo/2 - desenvolvimento.tex) (./conteudo/5 - ages IV/conteudo/3 - atividades.tex (./conteudo/5 - ages IV/conteudo/sprints/sprint 0.tex) (./conteudo/5 - ages IV/conteudo/sprints/sprint 1.tex) (./conteudo/5 - ages IV/conteudo/sprints/sprint 2.tex [37
+ (./conteudo/5 - ages IV/index.tex (./conteudo/5 - ages IV/conteudo/1 - introducao.tex) (./conteudo/5 - ages IV/conteudo/2 - desenvolvimento.tex) (./conteudo/5 - ages IV/conteudo/3 - atividades.tex (./conteudo/5 - ages IV/conteudo/sprints/sprint 0.tex) (./conteudo/5 - ages IV/conteudo/sprints/sprint 1.tex) (./conteudo/5 - ages IV/conteudo/sprints/sprint 2.tex [43
 
 
 
 
-]) (./conteudo/5 - ages IV/conteudo/sprints/sprint 3.tex) (./conteudo/5 - ages IV/conteudo/sprints/sprint 4.tex)) (./conteudo/5 - ages IV/conteudo/4 - conclusao.tex)) [38]
+]) (./conteudo/5 - ages IV/conteudo/sprints/sprint 3.tex) (./conteudo/5 - ages IV/conteudo/sprints/sprint 4.tex)) (./conteudo/5 - ages IV/conteudo/4 - conclusao.tex)) [44]
 \openout2 = `"conteudo/6 - consideracoes/consideracoes.aux"'.
 
- (./conteudo/6 - consideracoes/consideracoes.tex) [39
+ (./conteudo/6 - consideracoes/consideracoes.tex) [45
 
 
 
@@ -1280,7 +1324,7 @@ LaTeX Warning: Empty bibliography on input line 2.
 )
 \openout2 = `"conteudo/8 - apendices/apendices.aux"'.
 
- (./conteudo/8 - apendices/apendices.tex) [40
+ (./conteudo/8 - apendices/apendices.tex) [46
 
 
 
@@ -1308,18 +1352,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25957 strings out of 476162
- 468954 string characters out of 5794815
+ 26027 strings out of 476162
+ 472542 string characters out of 5794815
  1935975 words of memory out of 5000000
- 47270 multiletter control sequences out of 15000+600000
+ 47326 multiletter control sequences out of 15000+600000
  582497 words of font info for 63 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  99i,12n,107p,1226b,4319s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/lucas-taborda/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (41 pages, 1090109 bytes).
+Output written on main.pdf (47 pages, 4454828 bytes).
 PDF statistics:
- 649 PDF objects out of 1000 (max. 8388607)
- 533 compressed objects within 6 object streams
- 162 named destinations out of 1000 (max. 500000)
- 214 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 706 PDF objects out of 1000 (max. 8388607)
+ 571 compressed objects within 6 object streams
+ 176 named destinations out of 1000 (max. 500000)
+ 249 words of extra memory for PDF output out of 10000 (max. 10000000)
 
